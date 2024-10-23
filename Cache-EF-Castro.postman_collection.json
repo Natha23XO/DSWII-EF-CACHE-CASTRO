@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "0376e2ed-7753-49a6-a3c5-86335fbe1311",
+		"name": "Cache-EF-Castro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35956105"
+	},
+	"item": [
+		{
+			"name": "Doctor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/doctor/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"doctor",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Citas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/citas/2024",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"citas",
+						"2024"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recetas Medicas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/receta-medica/2024",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"receta-medica",
+						"2024"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
